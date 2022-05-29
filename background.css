@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#hey{
+    width: 100%;
+    color: #fff;
+
+    background: linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB) ;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    animation: change 10s ease-in-out infinite;
+
+}
+
+#welcome{
+    width: 100%;
+    height: 100%;
+    position: static;
+    background:white;
+    background-size: 100px 100px;
+    background-repeat: repeat;
+
+
+}
+
+
+
+
+
+.welcomeWeb{
+    display: block;
+    font-weight:350;
+    margin-left:17%;
+    font-size:45px;
+    width:70%;
+    text-align: center;
+    transition:0.3s all;
+    color:white;
+    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+}
+
+
+#ww1 {font-size: 300%}
+
+#ww1:hover{
+    font-size: 10vh;
+}
+
+
+
+
+#ww2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    opacity: 50%;
+}
+
+#ww2:hover{
+    font-size: 200%;
+    opacity: 200%;
+
+}
+
+
+
+
+
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
